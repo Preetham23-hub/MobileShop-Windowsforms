@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7A6A868D-28C7-4760-A35E-617D8D5B3400}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>mobileshop</RootNamespace>
+    <AssemblyName>mobileshop</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin.Designer.cs">
+      <DependentUpon>admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminhome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminhome.Designer.cs">
+      <DependentUpon>adminhome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="arrive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="arrive.Designer.cs">
+      <DependentUpon>arrive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="available.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="available.Designer.cs">
+      <DependentUpon>available.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="home.Designer.cs">
+      <DependentUpon>home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mobileshopDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mobileshopDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="mobileshopDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mobileshopDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="mobileshopDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mobileshopDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="mobileshopDataSet31.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mobileshopDataSet31.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="mobileshopDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mobileshopDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="mobileshopDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mobileshopDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="mobileshopDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mobileshopDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="mobileshopDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mobileshopDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="mobileshopDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mobileshopDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="mobileshopDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mobileshopDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="nwcart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nwcart.Designer.cs">
+      <DependentUpon>nwcart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="order.Designer.cs">
+      <DependentUpon>order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="product.Designer.cs">
+      <DependentUpon>product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="search.Designer.cs">
+      <DependentUpon>search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user.Designer.cs">
+      <DependentUpon>user.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminhome.resx">
+      <DependentUpon>adminhome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="arrive.resx">
+      <DependentUpon>arrive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="available.resx">
+      <DependentUpon>available.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home.resx">
+      <DependentUpon>home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nwcart.resx">
+      <DependentUpon>nwcart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="order.resx">
+      <DependentUpon>order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="product.resx">
+      <DependentUpon>product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="search.resx">
+      <DependentUpon>search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user.resx">
+      <DependentUpon>user.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="mobileshopDataSet.xsc">
+      <DependentUpon>mobileshopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="mobileshopDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mobileshopDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mobileshopDataSet.xss">
+      <DependentUpon>mobileshopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="mobileshopDataSet1.xsc">
+      <DependentUpon>mobileshopDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="mobileshopDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mobileshopDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mobileshopDataSet1.xss">
+      <DependentUpon>mobileshopDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="mobileshopDataSet21.xsc">
+      <DependentUpon>mobileshopDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="mobileshopDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mobileshopDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mobileshopDataSet21.xss">
+      <DependentUpon>mobileshopDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="mobileshopDataSet31.xsc">
+      <DependentUpon>mobileshopDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="mobileshopDataSet31.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mobileshopDataSet31.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mobileshopDataSet31.xss">
+      <DependentUpon>mobileshopDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="mobileshopDataSet4.xsc">
+      <DependentUpon>mobileshopDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="mobileshopDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mobileshopDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mobileshopDataSet4.xss">
+      <DependentUpon>mobileshopDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="mobileshopDataSet5.xsc">
+      <DependentUpon>mobileshopDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="mobileshopDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mobileshopDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mobileshopDataSet5.xss">
+      <DependentUpon>mobileshopDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="mobileshopDataSet6.xsc">
+      <DependentUpon>mobileshopDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="mobileshopDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mobileshopDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mobileshopDataSet6.xss">
+      <DependentUpon>mobileshopDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="mobileshopDataSet7.xsc">
+      <DependentUpon>mobileshopDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="mobileshopDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mobileshopDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mobileshopDataSet7.xss">
+      <DependentUpon>mobileshopDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="mobileshopDataSet8.xsc">
+      <DependentUpon>mobileshopDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="mobileshopDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mobileshopDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mobileshopDataSet8.xss">
+      <DependentUpon>mobileshopDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="mobileshopDataSet9.xsc">
+      <DependentUpon>mobileshopDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="mobileshopDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mobileshopDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mobileshopDataSet9.xss">
+      <DependentUpon>mobileshopDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="background\15279.jpg" />
+    <Content Include="background\15291.jpg" />
+    <Content Include="background\15294.jpg" />
+    <Content Include="background\896796.jpg" />
+    <Content Include="background\896821.jpg" />
+    <Content Include="background\8980.jpg" />
+    <Content Include="background\android_motherboard-wallpaper-1280x768.jpg" />
+    <Content Include="background\android_robot_listening_to_music-wallpaper-1920x1080 %281%29.jpg" />
+    <Content Include="background\anonymous_mask_3-wallpaper-2560x1440.jpg" />
+    <Content Include="background\art-black-background-blur-1473215.jpg" />
+    <Content Include="background\artsy-black-background-conceptual-1482476.jpg" />
+    <Content Include="background\hacker-wide-2048x1152.jpg" />
+    <Content Include="background\iphone-11-pro-2560x1440-max-apple-september-2019-event-22066.jpg" />
+    <Content Include="background\iphone-11-pro-3840x2160-max-apple-september-2019-event-22065.jpg" />
+    <Content Include="background\Just a week after %40black hit 50k, we’re growing….jpg" />
+    <Content Include="background\laptop_macbook_iphone_apple_journal_glasses_113949_1920x1080.jpg" />
+    <Content Include="background\light-3840x2160-dark-bokeh-6k-19732.jpg" />
+    <Content Include="background\lines-3840x2160-digital-red-4k-18954.jpg" />
+    <Content Include="background\material_design_by_x86-wallpaper-5120x2880.jpg" />
+    <Content Include="background\MobileShopping.gif" />
+    <Content Include="background\noisy-3840x2160-hd-5k-4k-wallpaper-abstract-13109.jpg" />
+    <Content Include="background\photo-1544890225-2f3faec4cd60.jpg" />
+    <Content Include="background\photo-1562813733-b31f71025d54.jpg" />
+    <Content Include="background\plate_sensor_windows_android_97168_1920x1080.jpg" />
+    <Content Include="background\red_bowers_and_wilkins_p3_headphones-wallpaper-5120x2880.jpg" />
+    <Content Include="background\There Are Now Over 20 Cell Phones that Shoot 4K Video.jpg" />
+    <Content Include="background\ınstagram IPhone Black.jpg" />
+    <Content Include="mobileshop.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mobileshop_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>mobileshop.mdf</DependentUpon>
+    </Content>
+    <Content Include="preetham\4k-wallpaper-architecture-bay-1485894.jpg" />
+    <Content Include="preetham\a9.PNG" />
+    <Content Include="preetham\Capture.PNG" />
+    <Content Include="preetham\hum.PNG" />
+    <Content Include="preetham\huu.PNG" />
+    <Content Include="preetham\j.PNG" />
+    <Content Include="preetham\k.PNG" />
+    <Content Include="preetham\kkk.PNG" />
+    <Content Include="preetham\ll.PNG" />
+    <Content Include="preetham\mm.PNG" />
+    <Content Include="preetham\mmm.PNG" />
+    <Content Include="preetham\moto.PNG" />
+    <Content Include="preetham\motoblack.PNG" />
+    <Content Include="preetham\new.PNG" />
+    <Content Include="preetham\nok.PNG" />
+    <Content Include="preetham\nokia.PNG" />
+    <Content Include="preetham\nr.PNG" />
+    <Content Include="preetham\one.PNG" />
+    <Content Include="preetham\oneplus.PNG" />
+    <Content Include="preetham\oo.PNG" />
+    <Content Include="preetham\ra.PNG" />
+    <Content Include="preetham\reallll.PNG" />
+    <Content Include="preetham\realme.PNG" />
+    <Content Include="preetham\reno.PNG" />
+    <Content Include="preetham\roo.PNG" />
+    <Content Include="preetham\rr.PNG" />
+    <Content Include="preetham\sammm.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
